@@ -3,6 +3,7 @@ Welcome to the repository of the FitConnect website, a fitness platform focusing
 FitConnect is committed to promoting fitness and wellness through a comprehensive digital experience. Our platform offers a range of features to support fitness enthusiasts and professional trainers.
 
 **Technology Stack**
+
 Tailwind CSS - Utility CSS Framework
 
 **Features**
