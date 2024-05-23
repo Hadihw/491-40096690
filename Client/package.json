@@ -11,6 +11,7 @@
     "@vitejs/plugin-react": "^4.2.1",
     "daisyui": "^4.11.1",
     "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "flowbite": "^2.3.0",
     "react-dom": "^18.3.1",
     "tailwindcss": "^3.4.3",
