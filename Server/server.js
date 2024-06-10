@@ -18,7 +18,7 @@ app.use((req, res, next) => {
     next();
 });
 
-// API Routes
+// API routes
 
 
 
