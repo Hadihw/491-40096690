@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Axiom";
+    src: url('/assets/fonts/Axiom.otf') format("opentype");
+}
+
+
+html,
+body,
+#root,
+.app {
+    margin:0;
+    padding:0;
+    height:100%;
+    width:100%;
+    font-family: "Poppins", sans-serif;
+    background: white;
+}
+
+
+
+/* Custom Scrollbar*/
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #9CA5B4;
+    border-radius: 10px;
+}
+
+
+
+
+.active {
+    background-color: #745228;
+    color: white;
+}
+
+
+.btn-light {
+    @apply bg-light text-white px-6 py-2 rounded font-axiom;
+    @apply shadow-md hover:shadow-lg active:shadow-inner;
+    @apply hover:-translate-y-1 hover:bg-dark active:scale-100 hover:text-white hover:scale-110;
+}
+
+.header-transition {
+    transition: background-color 0.3s ease, padding 0.3s ease, color 0.3s ease;
+}
+
+
+
+
