@@ -14,7 +14,7 @@ const MainContent = () => {
             <div className="flex flex-1 items-center justify-center md:justify-start pl-4 md:pl-20 animate-fade-in">
                 <div className="max-w-lg w-full text-center md:text-left">
                     <h1 className="text-3xl md:text-5xl text-black font-axiom mb-4">FitConnect</h1>
-                    <p className="mb-8 text-black">
+                    <p className="mb-8 text-black text-lg">
                         Connect. Motivate. Achieve.
                     </p>
                     <button onClick={() => navigate('/register')} className=" btn-light">
@@ -27,13 +27,11 @@ const MainContent = () => {
 };
 
 
-
-
 const Background = () => {
     return (
         <div className="absolute inset-0 z-0">
             {/* Background image */}
-            <div className="absolute inset-0 bg-landingPageBackground bg-no-repeat bg-cover bg-center" />
+            <div className="absolute inset-0 bg-landingPageBackground bg-no-repeat bg-cover bg-center opacity-70" />
 
             {/* Gradient overlay at the bottom */}
             <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-black to-transparent" />
