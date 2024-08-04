@@ -5,7 +5,8 @@ FitConnect is committed to promoting fitness and wellness through a comprehensiv
 **Technology Stack**
 Firebase
 Express
-Tailwind CSS - Utility CSS Framework
+Redux
+Tailwind CSS
 
 **Features**
 
