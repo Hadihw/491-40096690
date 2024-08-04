@@ -11,8 +11,6 @@ Tailwind CSS - Utility CSS Framework
 **For Guests**
 - Landing Page
 - About Section
-- Terms and Conditions
-- Privacy Policy
 - Login/Sign Up
 - FAQs
 - Contact Us
