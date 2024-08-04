@@ -8,7 +8,6 @@ import ContactUs from "../pages/PreAuth/ContactUs";
 import Faqs from "../pages/PreAuth/Faqs";
 import About from "../pages/PreAuth/About";
 
-
 function RedirectToLanding() {
     const navigate = useNavigate();
 
