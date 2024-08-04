@@ -163,7 +163,7 @@ const checkAuth = async (req, res) => {
 	}
 
 	try {
-		const decoded = jwt.decode(accessToken);  // Just decode, don't verify
+		const decoded = jwt.decode(accessToken);  //Just decode, don't verify
 		if (decoded.exp * 1000 > Date.now()) {
 			console.log("Access token still valid");
 			return res.status(200).json({ message: "Authenticated" });

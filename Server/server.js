@@ -3,7 +3,7 @@ const express = require("express");
 const https = require("https");
 const admin = require("firebase-admin");
 const bodyParser = require("body-parser");
-
+const cookieParser = require("cookie-parser");
 
 dotenv.config();
 
@@ -17,6 +17,7 @@ admin.initializeApp({
 const app = express();
 
 app.use(bodyParser.json());
+app.use(cookieParser());
 
 //Middleware
 
@@ -30,6 +31,8 @@ app.use((req, res, next) => {
 
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/auth/google', require('./routes/googleAuthRoutes'));
+app.use('/api/user', require('./routes/userRoutes'));
+
 
 
 let server;
